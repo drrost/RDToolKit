@@ -1,0 +1,11 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "DragController" do
+    pod 'FrameAccessor', '~> 1.3.2'
+end
+
+target "DragControllerTests" do
+    pod 'FrameAccessor', '~> 1.3.2'
+end
+
