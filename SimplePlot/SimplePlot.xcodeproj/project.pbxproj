@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11F24B961C32F29A0039420F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24B951C32F29A0039420F /* main.m */; };
+		11F24B991C32F29A0039420F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24B981C32F29A0039420F /* AppDelegate.m */; };
+		11F24B9C1C32F29A0039420F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24B9B1C32F29A0039420F /* ViewController.m */; };
+		11F24B9F1C32F29A0039420F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F24B9D1C32F29A0039420F /* Main.storyboard */; };
+		11F24BA11C32F29A0039420F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F24BA01C32F29A0039420F /* Assets.xcassets */; };
+		11F24BA41C32F29A0039420F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11F24BA21C32F29A0039420F /* LaunchScreen.storyboard */; };
+		11F24BAF1C32F29A0039420F /* testSimplePlotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24BAE1C32F29A0039420F /* testSimplePlotTests.m */; };
+		11F24BBA1C32F29A0039420F /* testSimplePlotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24BB91C32F29A0039420F /* testSimplePlotUITests.m */; };
+		11F24BC91C32F2B90039420F /* RDPlotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24BC81C32F2B90039420F /* RDPlotView.m */; };
+		11F24BCC1C32F4020039420F /* RDPlotData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F24BCB1C32F4020039420F /* RDPlotData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11F24BAB1C32F29A0039420F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F24B891C32F29A0039420F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F24B901C32F29A0039420F;
+			remoteInfo = testSimplePlot;
+		};
+		11F24BB61C32F29A0039420F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11F24B891C32F29A0039420F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11F24B901C32F29A0039420F;
+			remoteInfo = testSimplePlot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11F24B911C32F29A0039420F /* SimplePlot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplePlot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F24B951C32F29A0039420F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11F24B971C32F29A0039420F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11F24B981C32F29A0039420F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11F24B9A1C32F29A0039420F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11F24B9B1C32F29A0039420F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11F24B9E1C32F29A0039420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11F24BA01C32F29A0039420F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11F24BA31C32F29A0039420F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11F24BA51C32F29A0039420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F24BAA1C32F29A0039420F /* SimplePlot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F24BAE1C32F29A0039420F /* testSimplePlotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSimplePlotTests.m; sourceTree = "<group>"; };
+		11F24BB01C32F29A0039420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F24BB51C32F29A0039420F /* SimplePlot.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplePlot.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11F24BB91C32F29A0039420F /* testSimplePlotUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testSimplePlotUITests.m; sourceTree = "<group>"; };
+		11F24BBB1C32F29A0039420F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11F24BC71C32F2B90039420F /* RDPlotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPlotView.h; sourceTree = "<group>"; };
+		11F24BC81C32F2B90039420F /* RDPlotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPlotView.m; sourceTree = "<group>"; };
+		11F24BCA1C32F4020039420F /* RDPlotData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDPlotData.h; sourceTree = "<group>"; };
+		11F24BCB1C32F4020039420F /* RDPlotData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDPlotData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11F24B8E1C32F29A0039420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BA71C32F29A0039420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BB21C32F29A0039420F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11F24B881C32F29A0039420F = {
+			isa = PBXGroup;
+			children = (
+				11F24B931C32F29A0039420F /* testSimplePlot */,
+				11F24BAD1C32F29A0039420F /* testSimplePlotTests */,
+				11F24BB81C32F29A0039420F /* testSimplePlotUITests */,
+				11F24B921C32F29A0039420F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11F24B921C32F29A0039420F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11F24B911C32F29A0039420F /* SimplePlot.app */,
+				11F24BAA1C32F29A0039420F /* SimplePlot.xctest */,
+				11F24BB51C32F29A0039420F /* SimplePlot.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11F24B931C32F29A0039420F /* testSimplePlot */ = {
+			isa = PBXGroup;
+			children = (
+				11F24B971C32F29A0039420F /* AppDelegate.h */,
+				11F24B981C32F29A0039420F /* AppDelegate.m */,
+				11F24B9A1C32F29A0039420F /* ViewController.h */,
+				11F24B9B1C32F29A0039420F /* ViewController.m */,
+				11F24BCA1C32F4020039420F /* RDPlotData.h */,
+				11F24BCB1C32F4020039420F /* RDPlotData.m */,
+				11F24BC71C32F2B90039420F /* RDPlotView.h */,
+				11F24BC81C32F2B90039420F /* RDPlotView.m */,
+				11F24B9D1C32F29A0039420F /* Main.storyboard */,
+				11F24BA01C32F29A0039420F /* Assets.xcassets */,
+				11F24BA21C32F29A0039420F /* LaunchScreen.storyboard */,
+				11F24BA51C32F29A0039420F /* Info.plist */,
+				11F24B941C32F29A0039420F /* Supporting Files */,
+			);
+			path = testSimplePlot;
+			sourceTree = "<group>";
+		};
+		11F24B941C32F29A0039420F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11F24B951C32F29A0039420F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11F24BAD1C32F29A0039420F /* testSimplePlotTests */ = {
+			isa = PBXGroup;
+			children = (
+				11F24BAE1C32F29A0039420F /* testSimplePlotTests.m */,
+				11F24BB01C32F29A0039420F /* Info.plist */,
+			);
+			path = testSimplePlotTests;
+			sourceTree = "<group>";
+		};
+		11F24BB81C32F29A0039420F /* testSimplePlotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11F24BB91C32F29A0039420F /* testSimplePlotUITests.m */,
+				11F24BBB1C32F29A0039420F /* Info.plist */,
+			);
+			path = testSimplePlotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11F24B901C32F29A0039420F /* SimplePlot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F24BBE1C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlot" */;
+			buildPhases = (
+				11F24B8D1C32F29A0039420F /* Sources */,
+				11F24B8E1C32F29A0039420F /* Frameworks */,
+				11F24B8F1C32F29A0039420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplePlot;
+			productName = testSimplePlot;
+			productReference = 11F24B911C32F29A0039420F /* SimplePlot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11F24BA91C32F29A0039420F /* SimplePlotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F24BC11C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlotTests" */;
+			buildPhases = (
+				11F24BA61C32F29A0039420F /* Sources */,
+				11F24BA71C32F29A0039420F /* Frameworks */,
+				11F24BA81C32F29A0039420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F24BAC1C32F29A0039420F /* PBXTargetDependency */,
+			);
+			name = SimplePlotTests;
+			productName = testSimplePlotTests;
+			productReference = 11F24BAA1C32F29A0039420F /* SimplePlot.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11F24BB41C32F29A0039420F /* SimplePlotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11F24BC41C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlotUITests" */;
+			buildPhases = (
+				11F24BB11C32F29A0039420F /* Sources */,
+				11F24BB21C32F29A0039420F /* Frameworks */,
+				11F24BB31C32F29A0039420F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F24BB71C32F29A0039420F /* PBXTargetDependency */,
+			);
+			name = SimplePlotUITests;
+			productName = testSimplePlotUITests;
+			productReference = 11F24BB51C32F29A0039420F /* SimplePlot.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11F24B891C32F29A0039420F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rostyslav Druzhchenko";
+				TargetAttributes = {
+					11F24B901C32F29A0039420F = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					11F24BA91C32F29A0039420F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 11F24B901C32F29A0039420F;
+					};
+					11F24BB41C32F29A0039420F = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 11F24B901C32F29A0039420F;
+					};
+				};
+			};
+			buildConfigurationList = 11F24B8C1C32F29A0039420F /* Build configuration list for PBXProject "SimplePlot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11F24B881C32F29A0039420F;
+			productRefGroup = 11F24B921C32F29A0039420F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11F24B901C32F29A0039420F /* SimplePlot */,
+				11F24BA91C32F29A0039420F /* SimplePlotTests */,
+				11F24BB41C32F29A0039420F /* SimplePlotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11F24B8F1C32F29A0039420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F24BA41C32F29A0039420F /* LaunchScreen.storyboard in Resources */,
+				11F24BA11C32F29A0039420F /* Assets.xcassets in Resources */,
+				11F24B9F1C32F29A0039420F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BA81C32F29A0039420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BB31C32F29A0039420F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11F24B8D1C32F29A0039420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F24B9C1C32F29A0039420F /* ViewController.m in Sources */,
+				11F24B991C32F29A0039420F /* AppDelegate.m in Sources */,
+				11F24B961C32F29A0039420F /* main.m in Sources */,
+				11F24BCC1C32F4020039420F /* RDPlotData.m in Sources */,
+				11F24BC91C32F2B90039420F /* RDPlotView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BA61C32F29A0039420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F24BAF1C32F29A0039420F /* testSimplePlotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11F24BB11C32F29A0039420F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F24BBA1C32F29A0039420F /* testSimplePlotUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11F24BAC1C32F29A0039420F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F24B901C32F29A0039420F /* SimplePlot */;
+			targetProxy = 11F24BAB1C32F29A0039420F /* PBXContainerItemProxy */;
+		};
+		11F24BB71C32F29A0039420F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11F24B901C32F29A0039420F /* SimplePlot */;
+			targetProxy = 11F24BB61C32F29A0039420F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11F24B9D1C32F29A0039420F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F24B9E1C32F29A0039420F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11F24BA21C32F29A0039420F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11F24BA31C32F29A0039420F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11F24BBC1C32F29A0039420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11F24BBD1C32F29A0039420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11F24BBF1C32F29A0039420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testSimplePlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlot;
+				PRODUCT_NAME = SimplePlot;
+			};
+			name = Debug;
+		};
+		11F24BC01C32F29A0039420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = testSimplePlot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlot;
+				PRODUCT_NAME = SimplePlot;
+			};
+			name = Release;
+		};
+		11F24BC21C32F29A0039420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testSimplePlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlotTests;
+				PRODUCT_NAME = SimplePlot;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePlot.app/SimplePlot";
+			};
+			name = Debug;
+		};
+		11F24BC31C32F29A0039420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = testSimplePlotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlotTests;
+				PRODUCT_NAME = SimplePlot;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplePlot.app/SimplePlot";
+			};
+			name = Release;
+		};
+		11F24BC51C32F29A0039420F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testSimplePlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlotUITests;
+				PRODUCT_NAME = SimplePlot;
+				TEST_TARGET_NAME = testSimplePlot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11F24BC61C32F29A0039420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = testSimplePlotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.drrost.testSimplePlotUITests;
+				PRODUCT_NAME = SimplePlot;
+				TEST_TARGET_NAME = testSimplePlot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11F24B8C1C32F29A0039420F /* Build configuration list for PBXProject "SimplePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F24BBC1C32F29A0039420F /* Debug */,
+				11F24BBD1C32F29A0039420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11F24BBE1C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F24BBF1C32F29A0039420F /* Debug */,
+				11F24BC01C32F29A0039420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11F24BC11C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F24BC21C32F29A0039420F /* Debug */,
+				11F24BC31C32F29A0039420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		11F24BC41C32F29A0039420F /* Build configuration list for PBXNativeTarget "SimplePlotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11F24BC51C32F29A0039420F /* Debug */,
+				11F24BC61C32F29A0039420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11F24B891C32F29A0039420F /* Project object */;
+}
